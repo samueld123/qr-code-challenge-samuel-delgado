@@ -47,22 +47,3 @@ p {
     font-size: 20px;
     font-weight: 700;
 }
-
-/* @media (max-width: 375px) {
-    .qr-container {
-        width: 100%; /* Adjust width to fill the screen */
-        padding: 10px; /* Adjust padding for mobile */
-    }
-    .caption {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-}
-
-/* Media Query for Desktop */
-@media (min-width: 1440px) {
-    .qr-container {
-        width: 600px; /* Adjust width for larger screens */
-        padding: 20px; /* Adjust padding for desktop */
-    }
-} */
