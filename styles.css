@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@400;700&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.qr-container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 8px 50px  rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 300px;
+    border-radius: 15px;
+}
+.caption{
+    margin-bottom: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+p {
+    font-family: Outfit;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(234, 6%, 65%);
+}
+.title{
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* @media (max-width: 375px) {
+    .qr-container {
+        width: 100%; /* Adjust width to fill the screen */
+        padding: 10px; /* Adjust padding for mobile */
+    }
+    .caption {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* Media Query for Desktop */
+@media (min-width: 1440px) {
+    .qr-container {
+        width: 600px; /* Adjust width for larger screens */
+        padding: 20px; /* Adjust padding for desktop */
+    }
+} */
